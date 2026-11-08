@@ -53,7 +53,7 @@ a.card{transition:.2s}a.card:hover{transform:translateY(-3px);box-shadow:var(--s
 .hero-split{padding:72px 0}.hero-img{position:relative}.hero-img img{border-radius:calc(var(--radius) * 1.6);aspect-ratio:4/3.4;object-fit:cover;width:100%}
 .float-card{position:absolute;left:-18px;bottom:26px;background:var(--bg);color:var(--ink);padding:14px 18px;border-radius:12px;box-shadow:var(--shadow);display:flex;align-items:center;gap:8px}
 .chips{list-style:none;padding:0;margin:26px 0 0;display:flex;flex-wrap:wrap;gap:10px 20px;font-size:.92rem;font-weight:600}.chips .ic{color:var(--pri)}
-.hero-text{padding:70px 0 0}.hero-text .lead{max-width:720px}.hero-band{height:380px;background-size:cover;background-position:center 35%;margin-top:56px}
+.hero-text{padding:70px 0 0}.hero-text .lead{max-width:720px}.hero-band{height:380px;background-size:cover;background-position:center 20%;margin-top:56px}
 .hero-tc{padding:110px 0 100px;text-align:center}.hero-tc .lead{max-width:700px;margin:0 auto 26px}.hero-tc h1{max-width:900px;margin:0 auto .4em}
 /* split */
 .split{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}.split.rev .split-media{order:2}
@@ -127,6 +127,11 @@ a.card{transition:.2s}a.card:hover{transform:translateY(-3px);box-shadow:var(--s
 }
 @media (max-width:560px){.g4,.fgrid{grid-template-columns:1fr}.q{border-right:0;border-bottom:1px solid var(--line)}.checks.cols{columns:1}.facts{grid-template-columns:1fr}}
 .nav>li>a{white-space:nowrap}.btn{white-space:nowrap}
+.switcher{background:#111;color:#fff;font:600 12px/1 system-ui,sans-serif;display:flex;justify-content:center;align-items:center;gap:14px;padding:7px 12px;letter-spacing:.04em}
+.sw-links{display:flex;gap:4px}.switcher a{color:#fff;text-decoration:none;width:24px;height:24px;display:grid;place-items:center;border-radius:50%;opacity:.7}
+.switcher a:hover{opacity:1;background:rgba(255,255,255,.15)}.switcher a[aria-current]{background:#fff;color:#111;opacity:1}
+.tech-photo{margin-bottom:40px}.tech-photo img{width:100%;max-height:420px;object-fit:cover;border-radius:var(--radius)}
+.tc-img{width:100%;max-width:1000px;margin:56px auto 0;aspect-ratio:21/9;object-fit:cover;border-radius:var(--radius)}
 
 /* ---- theme ---- */
 
